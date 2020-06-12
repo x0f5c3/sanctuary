@@ -1,7 +1,7 @@
 [package]
-name = "idea_book"
+name = "sanctuary"
 version = "0.1.0"
-authors = ["xC5 <xc0ffx@disroot.org>"]
+authors = ["x0f5c3 <x0f5c3@tutanota.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -13,6 +13,8 @@ dialoguer = "0.6.2"
 termcolor = "1.1.0"
 which = "4.0.0"
 mdbook = "0.3.7"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
 
 
 

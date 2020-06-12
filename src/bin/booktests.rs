@@ -18,6 +18,6 @@ fn main() {
         .unwrap();
     let summary = parse_summary("/home/xc5/Projects/idea_book/testbook/src/SUMMARY.md");
     let sumpath = book.get_sum_path();
-    println!("{:#?}", sumpath);
-    println!("{:#?}", summary);
+    let j = serde_json::to_string(&book2.root).unwrap();
+    println!("Book: {}", j);
 }
