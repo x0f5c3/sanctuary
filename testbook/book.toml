@@ -1,0 +1,5 @@
+[book]
+authors = ["xC5"]
+language = "en"
+multilingual = false
+src = "src"
