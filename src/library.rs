@@ -23,6 +23,7 @@ impl Member {
     {
         let book = MDBook::load(path).unwrap();
         // This is probably the worst thing I ever wrote and probably ever will
+        // TODO Please fix this if I won't, there need to be checks for this
         let title = match book.config.book.title {
             Some(st) => st,
             None => book
