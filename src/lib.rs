@@ -22,6 +22,7 @@ use utils::get_if_available;
 pub mod book_handler;
 pub mod file_handler;
 mod git;
+pub mod library;
 pub mod printer;
 pub mod reader;
 pub mod types;

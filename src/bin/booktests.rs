@@ -1,9 +1,10 @@
 extern crate mdbook;
 
-use idea_book::book_handler::Handler;
 use mdbook::book::{parse_summary, Book, BookItem, Chapter, Summary, SummaryItem};
 use mdbook::config::Config;
 use mdbook::MDBook;
+use sanctuary::book_handler::Handler;
+use sanctuary::library::Library;
 
 fn main() {
     let book = MDBook::load("/home/xc5/Projects/idea_book/testbook").unwrap();
