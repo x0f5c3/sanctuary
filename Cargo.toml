@@ -10,7 +10,7 @@ edition = "2018"
 clap = "2.33.1"
 dirs = "2.0.2"
 dialoguer = "0.6.2"
-termcolor = "1.1.0"
+termcolor = "1.4.1"
 which = "4.0.0"
 mdbook = "0.3.7"
 serde = { version = "*", features = ["derive"] }
